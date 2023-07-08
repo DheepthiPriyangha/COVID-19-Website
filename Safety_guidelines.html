@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Safety Guidelines</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel= "stylesheet" href= "style.css">
+        <link rel="stylesheet" href="social.css">
+        <style>
+          img{
+            border:green 40px solid;
+          }
+          .sidenav a, .dropdown-btn {
+    padding: 6px 10px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: black;
+  }
+  
+  
+  .main {
+    margin-left: 200px; 
+    font-size: 20px; 
+    padding: 0px 10px;
+  }
+  
+  
+  .active {
+    background-color: none;
+    color: black;
+  }
+  
+  
+  .dropdown-container {
+    display: none;
+    background-color: none;
+    padding-left: 8px;
+  }
+  
+  
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+        </style>
+      </head>
+    <body background="bg3.jpg" style="font-family: 'Times New Roman', Times, serif;">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+        <script type="text/javascript" src="scroll.js">
+        </script>    
+      
+<div class="title">
+    <h1 style="text-align: center;"><a href="covid.html"><span class="headcov">COVID19 </span></a><a href="https://en.wikipedia.org/wiki/Coimbatore">
+        <span class="headcoi">COIMBATORE</span></font> </a></h1></div>
+        <div class="header"><div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="index.html">Home</a>
+                <a href="about us new.html">About us</a>
+                <a href="index.html#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+              </div>
+            <p style="float: left;background-color: black;"><button class="openbtn" onclick="openNav()" >☰ Menu</button></p></div>
+           
+            <br><br><br><br>
+          
+          <script>
+                function openNav() {
+                  document.getElementById("mySidepanel").style.width = "250px";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidepanel").style.width = "0";
+                }
+                function vid(){
+                    alert("Video started playing....");
+                }
+                function end(){
+                    alert("Video has ended");
+                }
+                </script>
+
+       <br><h1 style="color:orangered;font-family:cursive;text-align: center;font-size: 50px;">Safety Guidelines</h1>
+       <br>
+       <div class="slideshow-container">
+        <div class="im1">
+        <div class="mySlides">
+          <div class="numbertext">1 / 5</div>
+         
+          <img src="1.jpg" style="width:100%" usemap="#san" class="map1"> 
+          
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">2 / 5</div>
+          <img src="2.jpg" style="width:100%" usemap="#yoga" class="map1">  
+          
+        </div>   
+        <div class="mySlides">
+          <div class="numbertext">3 / 5</div>
+          <img src="3.jpg" style="width:100%" usemap="#covi" class="map1">
+          
+        </div>
+        <div class="mySlides">
+        <div class="numbertext">4 / 5</div>
+        <img src="4.jpg" style="width:100%" usemap="#pica" class="map1">
+       
+      </div>
+    </div>
+    <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+    <img src="5.jpg" style="width:100%" usemap="#pica" class="map1">
+   
+  </div></div></div>
+        <br>
+        <script type="text/javascript">
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              slides[slideIndex-1].style.display = "block";  
+              setTimeout(showSlides,5000); // Change image every 5 seconds
+            }
+            </script> 
+        
+    <p style="text-align: center;"><font size="4" color="red">If COVID-19 is spreading in your community, stay safe by taking some simple precautions listed below:</font></p>
+        <table border="1" align="center"><tr><td><ol style="font-size: x-large;"><b>
+            <div class="sidenav">
+                <button class="dropdown-btn">1. Wear a mask that covers your nose and mouth.
+                  
+                </button>
+                  <div class="dropdown-container">
+                 <ul>
+                  <p style="text-align: center;"><img src="man.png" height="400px"></p>
+                      <li>Every individual should wear a mask in public.</li>
+                      <li>Even if you have a mask on, maintain social distancing.</li>
+                      <li>If someone in your household is infected, everyone should wear mask to prevent the virus from spreading.</li>
+                      <li>Wash your hands with soap or sanitize them before putting on a mask.</li>
+                      <li>Make sure your nose and mouth are completely covered by the mask.</li>
+                </ul> 
+                </div>
+                
+              <button class= "dropdown-btn">2. Maintain Social Distancing.</button>
+                
+               <div class="dropdown-container">
+                 <ul>
+                  <p style="text-align: center;"><img src="keep-distance.png" height="400px"></p>   
+                  <li>In your home, avoid contact with sick people.</li>
+                      <li>If possible, keep distance from the sick person as often as possible.</li>
+                      <li>If you have to step out, put a 1 meter distance between yourself and others.</li>
+                      <li>It is possible that someone without symptoms is a carrier.</li>
+                  
+                 </ul>
+                </div>
+              <button class= "dropdown-btn">3. Get vaccinated as soon as possible.</button>
+              
+              <div class="dropdown-container">
+                 <ul>
+                  <p style="text-align: center;"><img src="vaccine.png" height="400px"></p>
+                      <li>As soon as possible, get a date fixed and get an authorised vaccination.</li>
+                      <li>Vaccine with protect you from COVID-19, and you will be able to do some tasks
+              That had to be stopped before pandemic</li>
+                      
+                  </ul>
+                </div>
+              
+                <button class="dropdown-btn">4. Avoid crowded and closed spaces</button>
+                
+                <div class="dropdown-container">
+                 <ul>
+                  <p style="text-align: center;"><img src="no-crowd.png" height="400px"></p>
+                      <li>Being in crowded public places puts you at a higher risk of getting COVID-19</li>
+                      <li>Similarly, you are at risk if you are in an enclosed space where the virus may linger.</li>
+                      <li>Avoid crowds as much as possible and stay in well ventilated rooms.</li>
+                      
+                  </ul>
+                </div>
+                
+                <button class="dropdown-btn">5. Wash your hands often
+                </button>
+                <div class="dropdown-container">
+                 <ul>
+                  <p style="text-align: center;"><img src="handwash.png" height="400px"></p> 
+                      <li>Wash your hands as frequently as possible with soap and water.</li>
+                      <li>If soap and water are not available, use a hand sanitizer with 60% alcohol content.</li>
+                </div>
+                
+              </div>
+              
+              
+              
+              <script>
+              
+              var dropdown = document.getElementsByClassName("dropdown-btn");
+              var i;
+              
+              for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+                } else {
+                dropdownContent.style.display = "block";
+                }
+                });
+              }
+              </script>
+     
+           </table>
+          
+           
+    
+
+
+            <a href="index.html" style="font-size: x-large"><p style="text-align:center;"> Click here to go back</p></a>
+            <footer class="footer1">
+              <p>
+            <div class="footerl">
+            
+               <h3 style="font-family:cursive;margin-top:99px;">Covid<span style="color: red;">Coimbatore</span></h3>
+               
+               <p class="footer-links">
+               <a href="index.html">Home</a>
+               +
+               <a href="about us new.html">About us</a>
+               +
+               <a href="index.html#gallery">Gallery</a>
+               +
+               <a href="#contact">Contact</a>
+               </p>
+               <p style=" color:  #8f9296;
+            font-size: 14px;
+            font-weight: normal;">Covid Coimbatore &copy; 2021</p>
+               </div>
+                                   <div class="footerc" style="height: 263px;">
+                                        <p id="contact" style="text-align: center;font-family:cursive;color: red;"><u>CONTACT US</u></p><br>
+                                           <p style="text-align: center;font-size: 15px;"><i class="fa fa-address-book-o" style="font-size:20px;margin-top: -100px"></i>Harish-xxxxxxxxxx</p>                                 
+                                           <p style="text-align: center;font-size: 15px;"><i class="fa fa-address-book-o" style="font-size:20px;margin-top: -100px"></i>Sharon-xxxxxxxxxx</p>
+                                               
+                                               <p style="text-align: center;font-size: 15px;"><i class="fa fa-address-book-o" style="font-size:20px;margin-top: -100px"></i>Dheepthi-xxxxxxxxx</p>
+                                               
+                                                   <p style="text-align: center;font-size: 15px;"><i class="fa fa-address-book-o" style="font-size:20px;margin-top: -100px"></i>Utkarsh-xxxxxxxxxx</p>
+                                               
+                                                       <p style="text-align: center;font-size: 15px;"><i class="fa fa-address-book-o" style="font-size:20px;margin-top: -100px"></i> Vinusha-xxxxxxxxx</p>
+                                   </p></div>
+                                           <div class="footerr" style="vertical-align: middle;margin-top:60px;">
+                                               <h3 style="font-family:cursive;">Follow us on:</h3>
+                                               <p style="text-align: center;vertical-align: middle;"><a href="https://www.facebook.com/" class="fa fa-facebook" style="vertical-align: middle;"></a>
+                                               <a href="https://www.instagram.com/" class="fa fa-instagram" style="vertical-align:middle ;"></a>
+                                               <a href="https://www.twitter.com/" class="fa fa-twitter" style="vertical-align: middle;"></a></p>
+                                          </div>                       
+                                           </p></footer>
+</body>
+</html>
